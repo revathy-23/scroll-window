@@ -39,6 +39,7 @@ public class Scroll {
 		//go to the specific element
 		WebElement link=driver.findElement(By.linkText("online tool"));
 		js.executeScript("arguments[0].scrollIntoView(true);", link);
+------------------------------------------------------------------------------------------------------
 		
 		
 		
