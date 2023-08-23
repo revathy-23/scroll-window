@@ -2,6 +2,7 @@ package com.javascript.executor;
 welcome
 
 import java.awt.AWTException;
+================================================================================================================================
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -40,6 +41,7 @@ public class Scroll {
 		//go to the specific element
 		WebElement link=driver.findElement(By.linkText("online tool"));
 		js.executeScript("arguments[0].scrollIntoView(true);", link);
+------------------------------------------------------------------------------------------------------
 		
 		
 		
